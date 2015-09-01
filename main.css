@@ -1,0 +1,373 @@
+@font-face {
+	font-family: Roboto;
+	src: url(fonts/roboto.eot);
+	src: url(fonts/roboto.eot?#iefix) format('embedded-opentype'), url(fonts/roboto.woff) format('woff'), url(fonts/roboto.ttf) format('truetype'), url(fonts/roboto.svg#bespoke) format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto Light';
+	src: url(fonts/roboto-light.eot);
+	src: url(fonts/roboto-light.eot?#iefix) format('embedded-opentype'), url(fonts/roboto-light.woff) format('woff'), url(fonts/roboto-light.ttf) format('truetype'), url(fonts/roboto-light.svg#bespoke) format('svg');
+	font-style: normal;
+	font-weight: 100;
+}
+@font-face {
+	font-family: 'Roboto Bold';
+	src: url(fonts/roboto-bold.eot);
+	src: url(fonts/roboto-bold.eot?#iefix) format('embedded-opentype'), url(fonts/roboto-bold.woff) format('woff'), url(fonts/roboto-bold.ttf) format('truetype'), url(fonts/roboto-bold.svg#bespoke) format('svg');
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto Thin';
+	src: url(fonts/roboto-thin.eot);
+	src: url(fonts/roboto-thin.eot?#iefix) format('embedded-opentype'), url(fonts/roboto-thin.woff) format('woff'), url(fonts/roboto-thin.ttf) format('truetype'), url(fonts/roboto-thin.svg#bespoke) format('svg');
+	font-style: normal;
+}
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	font-family: 'Roboto', 'Myriad Pro', 'PT Sans', sans-serif;
+	color: #262f32;
+}
+#wrapper {
+	width: 100%;
+	height: 2283px;
+}
+#section1 {
+	width: 66.471449488%;
+	height: 31.318440648%;
+	background: url(i/bg_section1.png) no-repeat;
+	background-size: cover;
+	float: left;
+}
+#section2 {
+	width: 33.528550512%;
+	height: 31.318440648%;
+	background: #f3f3f3;
+	padding: 30px 70px 10px 40px;
+	float: right;
+}
+#section3 {
+	width: 44.94875549%;
+	height: 37.406920718%;
+	float: left;
+	background-image: url(i/bg_section3.png);
+	background-size: cover;
+	padding: 30px 70px 10px 40px;
+}
+#section4 {
+	width: 55.05124451%;
+	height: 18.703460359%;
+	float: right;
+	background: url(i/bg_section4.png) center no-repeat;
+	background-size: cover;
+	padding: 30px 70px 10px 40px;
+}
+#section5 {
+	width: 55.05124451%;
+	height: 18.703460359%;
+	float: right;
+	background: url(i/bg_section5.png) center no-repeat;
+	background-size: cover;
+	padding: 30px 70px 10px 40px;
+}
+#section6 {
+	width: 33.528550512%;
+	height: 31.318440648%;
+	float: left;
+	background: url(i/bg_section6.png) center no-repeat;
+	background-size: cover;
+	padding: 30px 70px 10px 40px;
+}
+#section7 {
+	width: 66.471449488%;
+	height: 31.318440648%;
+	float: right;
+	background: url(i/bg_section7.png) center no-repeat;
+	background-size: cover;
+	padding: 30px 70px 10px 40px;
+}
+.wrapper {
+	min-width: 180px;
+}
+.menu {
+	width: 34px;
+	height: 30px;
+	cursor: pointer;
+	margin: 0;
+}
+.header-thin {
+	font-family: 'Roboto Thin', 'Myriad Pro', 'PT Sans', sans-serif;
+	font-weight: 100;
+	line-height: 1.5;
+	letter-spacing: 1.2px;
+	margin-top: 30px;
+}
+.header-bold {
+	font-family: 'Roboto Bold', 'Myriad Pro', 'PT Sans', sans-serif;
+}
+.header-light {
+	font-family: 'Roboto Light', 'Myriad Pro', 'PT Sans', sans-serif;
+}
+.header-text {
+	font-family: 'Roboto Light';
+	line-height: 1.5;
+	letter-spacing: 1.2px;
+	font-size: .9em;
+	padding-top: 10px;
+}
+.paragraph {
+	line-height: 2;
+	letter-spacing: 1.2px;
+	font-size: .8em;
+}
+#section3>.wrapper>.paragraph {
+	margin-bottom: 100px;
+}
+.white {
+	color: #fff;
+}
+p.white {
+	font-family: 'Roboto Light', 'Myriad Pro', 'PT Sans', sans-serif;
+}
+.button {
+	font-size: .9em;
+	border: 1px solid;
+	border-radius: 8px;
+	width: 170px;
+	height: 40px;
+	text-align: center;
+	padding-top: 9px;
+	margin-top: 35px;
+}
+.button:hover {
+	cursor: pointer;
+}
+.signature {
+	width: 140px;
+	margin-top: 310px;
+}
+.name {
+	margin-top: 30px;
+	font-family: 'Roboto Bold', 'Myriad Pro', 'PT Sans', sans-serif;
+}
+.me {
+	font-family: 'Roboto Thin', 'Myriad Pro', 'PT Sans', sans-serif;
+}
+.logo {
+	width: 73px;
+	height: 73px;
+}
+.form-name, .form-mail {
+	width: 250px;
+	height: 50px;
+	font-size: .9em;
+	background: transparent;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	padding: 10px;
+}
+.form-mail {
+	margin-top: 40px;
+}
+.form-name {
+	margin-right: 10px;
+	margin-top: 40px;
+}
+.textarea {
+	font-size: .9em;
+	width: 510px;
+	height: 200px;
+	overflow: scroll;
+	background: transparent;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	margin-top: 16px;
+	margin-bottom: 90px;
+	padding: 10px;
+}
+.social-media {
+	width: 129px;
+	height: 40px;
+	margin-bottom: 20px;
+}
+.facebook {
+	width: 40px;
+	height: 40px;
+	background: #345bb4 url(i/facebook.png) center no-repeat;
+	border-radius: 10px;
+	cursor: pointer;
+	float: left;
+	margin-right: 5px;
+}
+.dribble {
+	width: 40px;
+	height: 40px;
+	background: #e64895 url(i/dribble.png) center no-repeat;
+	border-radius: 10px;
+	cursor: pointer;
+	float: left;
+	margin-right: 4px;
+}
+.twitter {
+	width: 40px;
+	height: 40px;
+	background: #00b4ff url(i/twitter.png) center no-repeat;
+	border-radius: 10px;
+	cursor: pointer;
+	float: left;
+}
+@media only screen and (min-width:1920px) {
+	.wrapper-section2 {
+		max-width: 500px;
+		margin: 0 auto;
+	}
+	.wrapper-section3 {
+		max-width: 500px;
+		margin: 0 auto;
+	}
+	.wrapper-section4 {
+		max-width: 500px;
+		margin: 0 auto;
+	}
+	.wrapper-section5 {
+		max-width: 500px;
+		margin: 0 auto;
+	}
+	.wrapper-section6 {
+		max-width: 250px;
+		margin: 0 auto;
+	}
+	.wrapper-section7 {
+		max-width: 510px;
+		margin: 0 auto;
+	}
+	.signature {
+		margin: 310px auto 0 auto;
+	}
+	.name, .me {
+		text-align: center;
+	}
+	.logo {
+		margin-left: 25px;
+	}
+}
+@media only screen and (max-width:1170px) {
+	#section3>.wrapper>.paragraph {
+		margin-bottom: 75px;
+	}
+}
+@media only screen and (max-width:1060px) {
+	#section3>.wrapper>.paragraph {
+		margin-bottom: 80px;
+	}
+	.signature {
+		margin-top: 310px;
+	}
+	#section2, #section3, #section4, #section5, #section6, #section7 {
+		padding: 30px 40px 10px 40px;
+	}
+}
+@media only screen and (max-width:934px) {
+	#section2, #section3, #section4, #section5, #section6, #section7 {
+		padding: 15px 20px 15px 20px;
+	}
+	#section3>.wrapper>.paragraph {
+		margin-bottom: 70px;
+	}
+}
+@media only screen and (max-width:827px) {
+	.form-mail {
+		margin-top: 3px;
+	}
+	.form-name {
+		margin-top: 20px;
+	}
+	.textarea {
+		width: 410px;
+	}
+}
+@media only screen and (max-width:799px) {
+	#section3>.wrapper>.paragraph {
+		margin-bottom: 10px;
+	}
+	.signature {
+		margin-top: 280px;
+	}
+}
+@media only screen and (max-width:700px) {
+	#section1, #section2, #section3, #section4, #section5, #section6, #section7 {
+		float: none;
+		width: 100%;
+	}
+	#section1 {
+		display: none;
+	}
+	#section2 {
+		color: #fff;
+		background: url(i/bg_section1.png) no-repeat;
+	}
+	#section3>.wrapper>.paragraph {
+		margin-bottom: 100px;
+	}
+	#section2 {
+		height: 550px;
+	}
+	.wrapper-section2 {
+		margin: 0 auto;
+	}
+	.wrapper-section3 {
+		margin: 0 auto;
+	}
+	.wrapper-section4 {
+		margin: 0 auto;
+	}
+	.wrapper-section5 {
+		margin: 0 auto;
+	}
+	.wrapper-section6 {
+		margin: 0 auto;
+	}
+	.wrapper-section7 {
+		margin: 0 auto;
+	}
+	.name, .me {
+		text-align: center;
+	}
+	.textarea {
+		width: 510px;
+	}
+	.signature {
+		margin: 310px auto 0 25%;
+	}
+	.logo {
+		margin-left: 25px;
+	}
+}
+@media only screen and (max-width:543px) {
+	.textarea {
+		width: 250px;
+	}
+}
+@media only screen and (max-width:452px) {
+	.textarea {
+		margin-bottom: 70px;
+	}
+}
+@media only screen and (max-width:380px) {
+	.header-thin {
+		margin-top: 10px;
+	}
+	#section3>.wrapper>.paragraph {
+		margin-bottom: 40px;
+	}
+	.wrapper-section6 {
+		min-width: 250px;
+	}
+	.textarea {
+		width: 250px;
+	}
+}
